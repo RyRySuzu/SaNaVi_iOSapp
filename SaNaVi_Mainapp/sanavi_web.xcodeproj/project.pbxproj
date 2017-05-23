@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D6F261C741E6100827667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6F251C741E6100827667 /* AppDelegate.swift */; };
+		180D6F281C741E6100827667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6F271C741E6100827667 /* ViewController.swift */; };
+		180D6F2B1C741E6100827667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D6F291C741E6100827667 /* Main.storyboard */; };
+		180D6F2D1C741E6100827667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D6F2C1C741E6100827667 /* Assets.xcassets */; };
+		180D6F301C741E6100827667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D6F2E1C741E6100827667 /* LaunchScreen.storyboard */; };
+		180D6F3B1C741E6100827667 /* Sanavi_webTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6F3A1C741E6100827667 /* Sanavi_webTests.swift */; };
+		180D6F461C741E6100827667 /* Sanavi_webUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6F451C741E6100827667 /* Sanavi_webUITests.swift */; };
+		180D6F541C7422E200827667 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180D6F531C7422E200827667 /* CoreLocation.framework */; };
+		180D6F561C74282F00827667 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180D6F551C74282F00827667 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180D6F371C741E6100827667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180D6F1A1C741E6100827667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180D6F211C741E6100827667;
+			remoteInfo = Sanavi_web;
+		};
+		180D6F421C741E6100827667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180D6F1A1C741E6100827667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180D6F211C741E6100827667;
+			remoteInfo = Sanavi_web;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180D6F221C741E6100827667 /* Sanavi_web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanavi_web.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D6F251C741E6100827667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180D6F271C741E6100827667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180D6F2A1C741E6100827667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180D6F2C1C741E6100827667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180D6F2F1C741E6100827667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180D6F311C741E6100827667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D6F361C741E6100827667 /* Sanavi_webTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sanavi_webTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D6F3A1C741E6100827667 /* Sanavi_webTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanavi_webTests.swift; sourceTree = "<group>"; };
+		180D6F3C1C741E6100827667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D6F411C741E6100827667 /* Sanavi_webUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sanavi_webUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D6F451C741E6100827667 /* Sanavi_webUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanavi_webUITests.swift; sourceTree = "<group>"; };
+		180D6F471C741E6100827667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D6F531C7422E200827667 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		180D6F551C74282F00827667 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180D6F1F1C741E6100827667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6F561C74282F00827667 /* WebKit.framework in Frameworks */,
+				180D6F541C7422E200827667 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F331C741E6100827667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F3E1C741E6100827667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180D6F191C741E6100827667 = {
+			isa = PBXGroup;
+			children = (
+				180D6F551C74282F00827667 /* WebKit.framework */,
+				180D6F531C7422E200827667 /* CoreLocation.framework */,
+				180D6F241C741E6100827667 /* Sanavi_web */,
+				180D6F391C741E6100827667 /* Sanavi_webTests */,
+				180D6F441C741E6100827667 /* Sanavi_webUITests */,
+				180D6F231C741E6100827667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180D6F231C741E6100827667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180D6F221C741E6100827667 /* Sanavi_web.app */,
+				180D6F361C741E6100827667 /* Sanavi_webTests.xctest */,
+				180D6F411C741E6100827667 /* Sanavi_webUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180D6F241C741E6100827667 /* Sanavi_web */ = {
+			isa = PBXGroup;
+			children = (
+				180D6F251C741E6100827667 /* AppDelegate.swift */,
+				180D6F271C741E6100827667 /* ViewController.swift */,
+				180D6F291C741E6100827667 /* Main.storyboard */,
+				180D6F2C1C741E6100827667 /* Assets.xcassets */,
+				180D6F2E1C741E6100827667 /* LaunchScreen.storyboard */,
+				180D6F311C741E6100827667 /* Info.plist */,
+			);
+			path = Sanavi_web;
+			sourceTree = "<group>";
+		};
+		180D6F391C741E6100827667 /* Sanavi_webTests */ = {
+			isa = PBXGroup;
+			children = (
+				180D6F3A1C741E6100827667 /* Sanavi_webTests.swift */,
+				180D6F3C1C741E6100827667 /* Info.plist */,
+			);
+			path = Sanavi_webTests;
+			sourceTree = "<group>";
+		};
+		180D6F441C741E6100827667 /* Sanavi_webUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180D6F451C741E6100827667 /* Sanavi_webUITests.swift */,
+				180D6F471C741E6100827667 /* Info.plist */,
+			);
+			path = Sanavi_webUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180D6F211C741E6100827667 /* Sanavi_web */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D6F4A1C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_web" */;
+			buildPhases = (
+				180D6F1E1C741E6100827667 /* Sources */,
+				180D6F1F1C741E6100827667 /* Frameworks */,
+				180D6F201C741E6100827667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sanavi_web;
+			productName = Sanavi_web;
+			productReference = 180D6F221C741E6100827667 /* Sanavi_web.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180D6F351C741E6100827667 /* Sanavi_webTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D6F4D1C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_webTests" */;
+			buildPhases = (
+				180D6F321C741E6100827667 /* Sources */,
+				180D6F331C741E6100827667 /* Frameworks */,
+				180D6F341C741E6100827667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D6F381C741E6100827667 /* PBXTargetDependency */,
+			);
+			name = Sanavi_webTests;
+			productName = Sanavi_webTests;
+			productReference = 180D6F361C741E6100827667 /* Sanavi_webTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180D6F401C741E6100827667 /* Sanavi_webUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D6F501C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_webUITests" */;
+			buildPhases = (
+				180D6F3D1C741E6100827667 /* Sources */,
+				180D6F3E1C741E6100827667 /* Frameworks */,
+				180D6F3F1C741E6100827667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D6F431C741E6100827667 /* PBXTargetDependency */,
+			);
+			name = Sanavi_webUITests;
+			productName = Sanavi_webUITests;
+			productReference = 180D6F411C741E6100827667 /* Sanavi_webUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180D6F1A1C741E6100827667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "かいちゃん";
+				TargetAttributes = {
+					180D6F211C741E6100827667 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T48Y7WR68P;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					180D6F351C741E6100827667 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 180D6F211C741E6100827667;
+					};
+					180D6F401C741E6100827667 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 180D6F211C741E6100827667;
+					};
+				};
+			};
+			buildConfigurationList = 180D6F1D1C741E6100827667 /* Build configuration list for PBXProject "sanavi_web" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180D6F191C741E6100827667;
+			productRefGroup = 180D6F231C741E6100827667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180D6F211C741E6100827667 /* Sanavi_web */,
+				180D6F351C741E6100827667 /* Sanavi_webTests */,
+				180D6F401C741E6100827667 /* Sanavi_webUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180D6F201C741E6100827667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6F301C741E6100827667 /* LaunchScreen.storyboard in Resources */,
+				180D6F2D1C741E6100827667 /* Assets.xcassets in Resources */,
+				180D6F2B1C741E6100827667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F341C741E6100827667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F3F1C741E6100827667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180D6F1E1C741E6100827667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6F281C741E6100827667 /* ViewController.swift in Sources */,
+				180D6F261C741E6100827667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F321C741E6100827667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6F3B1C741E6100827667 /* Sanavi_webTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D6F3D1C741E6100827667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6F461C741E6100827667 /* Sanavi_webUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180D6F381C741E6100827667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180D6F211C741E6100827667 /* Sanavi_web */;
+			targetProxy = 180D6F371C741E6100827667 /* PBXContainerItemProxy */;
+		};
+		180D6F431C741E6100827667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180D6F211C741E6100827667 /* Sanavi_web */;
+			targetProxy = 180D6F421C741E6100827667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180D6F291C741E6100827667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D6F2A1C741E6100827667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180D6F2E1C741E6100827667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D6F2F1C741E6100827667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180D6F481C741E6100827667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180D6F491C741E6100827667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180D6F4B1C741E6100827667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T48Y7WR68P;
+				INFOPLIST_FILE = Sanavi_web/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		180D6F4C1C741E6100827667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T48Y7WR68P;
+				INFOPLIST_FILE = Sanavi_web/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		180D6F4E1C741E6100827667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sanavi_webTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-webTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanavi_web.app/Sanavi_web";
+			};
+			name = Debug;
+		};
+		180D6F4F1C741E6100827667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Sanavi_webTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-webTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanavi_web.app/Sanavi_web";
+			};
+			name = Release;
+		};
+		180D6F511C741E6100827667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sanavi_webUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-webUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sanavi_web;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		180D6F521C741E6100827667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Sanavi_webUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaichan394.Sanavi-webUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sanavi_web;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180D6F1D1C741E6100827667 /* Build configuration list for PBXProject "sanavi_web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D6F481C741E6100827667 /* Debug */,
+				180D6F491C741E6100827667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D6F4A1C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D6F4B1C741E6100827667 /* Debug */,
+				180D6F4C1C741E6100827667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D6F4D1C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_webTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D6F4E1C741E6100827667 /* Debug */,
+				180D6F4F1C741E6100827667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D6F501C741E6100827667 /* Build configuration list for PBXNativeTarget "Sanavi_webUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D6F511C741E6100827667 /* Debug */,
+				180D6F521C741E6100827667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180D6F1A1C741E6100827667 /* Project object */;
+}

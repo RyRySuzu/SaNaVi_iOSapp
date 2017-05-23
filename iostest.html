@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>SWIFTからJSを実行するテスト</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script>
+  function swiftJS(){
+    document.getElementById('target').style.color = 'red';
+    location.href = 'jsnoty://foobar/,'+"aaa";
+    //location.href="nativecall";
+  }
+</script>
+</head>
+<body>
+<h1 id="target">SwiftからJSを実行するテスト</h1>
+<a href="jsnoty://foobar/">クリックされても画面遷移しない</a>
+
+
+</body>
+</html>
